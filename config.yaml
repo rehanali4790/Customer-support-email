@@ -1,0 +1,39 @@
+agent:
+  model: "gpt-4-turbo-preview"
+  temperature: 0.7
+  max_tokens: 1000
+
+classification:
+  categories:
+    - technical
+    - general
+    - sales
+    - support
+    - billing
+    - feedback
+  urgency_levels:
+    - low
+    - medium
+    - high
+    - critical
+
+human_in_loop:
+  enabled: true
+  triggers:
+    - urgency: ["high", "critical"]
+    - complexity_score: 0.7
+    - sensitive_topics: ["refund", "complaint", "legal", "cancellation"]
+  
+vector_db:
+  chunk_size: 1000
+  chunk_overlap: 200
+  embedding_model: "text-embedding-3-small"
+  top_k: 3
+
+email_settings:
+  max_retry_attempts: 3
+  timeout_seconds: 30
+  
+logging:
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "./logs/email_agent.log"

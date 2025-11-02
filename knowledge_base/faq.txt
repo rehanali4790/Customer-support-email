@@ -1,0 +1,13 @@
+﻿Frequently Asked Questions
+
+Q: What are your business hours?
+A: We're open Monday-Friday, 9 AM - 5 PM EST.
+
+Q: How do I reset my password?
+A: Click 'Forgot Password' on the login page, enter your email, and follow the link sent to you.
+
+Q: What is your refund policy?
+A: Refunds are processed within 5-7 business days. Contact support@company.com for refund requests.
+
+Q: How do I track my order?
+A: Log into your account and go to 'Order History' to track your shipment.
