@@ -112,13 +112,7 @@ An intelligent, production-ready email support automation system powered by Lang
    # Add your FAQs, documentation, policies to ./knowledge_base/
    # Supports: .txt, .md, .pdf, .csv
    ```
-
-7. **Build knowledge base index**
-   ```bash
-   python rebuild_kb_simple.py
-   ```
-
-8. **Start the API server**
+7. **Start the API server**
    ```bash
    python run_api.py
    ```
